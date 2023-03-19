@@ -108,6 +108,18 @@ function App() {
         >
           <img src={url("clients-main")} style={{ width: "40%" }} />
         </ParallaxLayer>
+        <ParallaxLayer
+          offset={1}
+          speed={0.1}
+          onClick={() => ref.current.scrollTo(2)}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <img src={url("bash")} style={{ width: "40%" }} />
+        </ParallaxLayer>
       </Parallax>
     </div>
   );
