@@ -21,6 +21,9 @@ function App() {
         background: "#253237",
       }}
     >
+      <Parallax pages={4} scrolling={false}>
+        <h1>Scroll down</h1>
+      </Parallax>
       <Parallax pages={3} ref={ref}>
         <ParallaxLayer
           offset={1}
