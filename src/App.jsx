@@ -1,6 +1,4 @@
 import { useRef } from "react";
-import moon from "../moon.png";
-import sky from "../sky.png";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
